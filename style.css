@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    color: #918E9B;
+font-family: Inter;
+font-size: 0.64rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+margin: 0;
+}
+
+
+.world{
+  width: 1.5rem;
+height: 1.5rem;
+flex-shrink: 0;
+fill: #FFF;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+   height: 3.4375rem;
+   background: #F55A5A; 
+   
+}
+
+.nav-text{
+    letter-spacing: -0.06781rem;
+    color:#ffffff;
+    font-size: 0.90381rem;
+    font-weight: 500;
+}
+
+.places-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.title,
+.date{
+    color:#2B283A;
+    font-weight: 700;
+
+}
+
+
+
+
+.image{
+    width: 7.8125rem;
+height: 10.5rem;
+margin-right: 1rem;
+border-radius: 0.3125rem;
+}
+
+.sub-cont{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size:0.64em;
+    margin: 0;
+    
+}
+
+.location-text{
+    letter-spacing: 0.10881rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #2B283A;
+}
+.location-icon{
+    width: 0.4375rem;
+height: 0.59656rem;
+object-fit: cover;
+}
+
+.title{
+    color: #2B283A;
+    margin: 0;
+    font-size: 1.56em;
+}
+
+.date{
+   font-size: 0.64em;
+       margin-top: 0.44rem;
+}
+
+
+
+
+
+
+
+
+.description{
+    width: 20rem;
+    font-size: 0.75rem;
+    margin: 0;
+    font-weight: normal;
+}
